@@ -18,6 +18,12 @@ const producto3 = new Producto("Zenith II Alpha", "Motherboard Gama Alta", 10000
 const producto4 = new Producto("Rx 5500 xt ASUS", "Grafica Gama Media Alta", 100000, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/rx5500xt.jpg?alt=media&token=f28c7534-425f-497f-b90e-911baea8b560", "aaad", 32);
 const producto5 = new Producto("I7 4790", "Procesador Gama Media", 82000, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/i7_4790.jpg?alt=media&token=9180a992-2129-4ce9-b89e-08c8fdfcc7ac", "aaae", 22);
 
+const producto6 = new Producto("Z97_Gaming_3", "Motherboard", 24232, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/Z97Gaming3.jpg?alt=media&token=19280f24-e0fe-47e9-a079-f4e9039f58fc", "aaaf", 253);
+const producto7 = new Producto("IX570 Plus", "Motherboard", 46200, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/X570plus.jpg?alt=media&token=56b604c8-1100-469a-ac94-624ab3097d4d", "aaag", 56);
+const producto8 = new Producto("I7 11700K", "Procesador gama alta", 1000000, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/i7_11700k.jpg?alt=media&token=1ed056cb-3956-4a45-8676-d8f24dce6805", "aaah", 526);
+const producto9 = new Producto("RTX 3090 EVGA", "Grafica Gama Alta", 120000, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/rtx3090.jpg?alt=media&token=5e87b010-c2af-4c35-86fe-645e3a1a8eba", "aaai", 32);
+const producto10 = new Producto("Ryzen 5 5600", "Procesador Gama Media", 90000, "https://firebasestorage.googleapis.com/v0/b/ecommercereact2022.appspot.com/o/Ryzen_5_5600.jpg?alt=media&token=f4af6432-ab68-4aa2-85b4-6e5ad04a0c1d", "aaaj", 22);
+
 class ProductManager {
     constructor(path) {
         this.path = path;
@@ -145,6 +151,12 @@ class ProductManager {
         await this.addProduct(producto3);
         await this.addProduct(producto4);
         await this.addProduct(producto5);
+        await this.addProduct(producto6);
+        await this.addProduct(producto7);
+        await this.addProduct(producto8);
+        await this.addProduct(producto9);
+        await this.addProduct(producto10);
+
     }
 
 }
